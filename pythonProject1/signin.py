@@ -41,4 +41,5 @@ password_entry.insert(0, 'Password')
 password_entry.bind('<FocusIn>', password_enter)  #FocusIn means if we click on it, the fn will run.
 Frame(login_window, width=250, height=2, bg='firebrick1').place(x=580, y=282)
 
+print("Hi")
 login_window.mainloop()
